@@ -36,4 +36,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME}}/:vagrant-flask-dev:latest
+          tags: ${{ secrets.DOCKER_USERNAME}}/vagrant-flask-dev:latest
