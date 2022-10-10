@@ -3,9 +3,9 @@
 ### Created a development environment by using Vagrant. 
 1. Vagrant is creating a VM on Virtual Box, `hashicorp/bionic64` is the base image of the VM. 
 2. It's installing docker for us and pulling images I specified.
-3. When the repository is committed, a new image will be pushed to docker hub (this is what .github/workflows/push-to-hub.yml does)
-4. After change in local we need to run bash.sh script.It's push to Github repository and If there is new image on docker hub, flask app is restarting with new image. 
- for us
+3. After change in local we need to run bash.sh script.It's push to Github repository.
+4. When the repository is committed, a new image will be pushed to docker hub (this is what .github/workflows/docker-publish.yml does)
+5. While it waits 25 seconds and creates the new vagrant environment
 -----
 ### Solved CI/CD part with Github Actions.
 1. When the repo received new commit, new image is building in actions.
