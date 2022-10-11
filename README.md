@@ -8,6 +8,8 @@
 5. Waits for 25 seconds destroys the old environment and then creates the new environment
 6. Connects to the machine
 7. Send a request to curl http://localhost:8080 to see the output of the application
+8. Use port 5000 to see output of application from within docker container
+curl http://localhost:5000
 -----
 ### Solved CI/CD part with Github Actions.
 1. When the repo received new commit, new image is building in actions.
