@@ -8,8 +8,8 @@
 5. Waits for 25 seconds destroys the old environment and then creates the new environment
 6. Connects to the machine
 7. Send curl request to http://localhost:8000 to see the output of the application in the virtual machine
-8. Use port 5000 to see output of application from within docker container
-curl http://localhost:5000
+8. Use port 6000 to see output of application from within docker container
+curl http://localhost:6000
 9. Send curl request to http://localhost:8080 to see the output of the application locally
 -----
 ### Solved CI/CD part with Github Actions.
