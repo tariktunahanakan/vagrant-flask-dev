@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Hello  '
+    return 'Hello Docker '
 
 @app.route('/docker')
 def hello():
